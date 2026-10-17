@@ -1,0 +1,7 @@
+it-vga8.bin: 256 glyphs x 8 raster rows, bit 7 is the left pixel.
+Obtained from the rendered VGA ROM font of DOSBox 0.74-3 (Ubuntu Focal package),
+using BIOS INT 10h AX=1112h, 8-dot mode, and a 256-character text atlas.
+This is extracted screen output, not copied DOSBox source code.
+IT_S.ASM replaces character codes 128..201 with its original custom graphics.
+Reproduce atlas: build/ui-reference/font-atlas.s and font-atlas capture.
+The font and palette are checked against captured original IT UI regions.

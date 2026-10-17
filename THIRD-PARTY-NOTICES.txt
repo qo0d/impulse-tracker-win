@@ -1,0 +1,25 @@
+Impulse Tracker Native Windows Port - third-party notices
+
+ORIGINAL IMPULSE TRACKER CODE
+Author: Jeffrey Lim
+Upstream: https://github.com/jthlim/impulse-tracker
+Pinned upstream commit: 58c44e48dfdf479b186db17df0f2fa494b8c9aa9
+License: BSD 3-Clause; full copyright, conditions and disclaimer in LICENSE.
+The native port is an independent project by dYNAX (qo0d).
+
+EXAMPLE MODULES - CC BY 4.0
+Nine unmodified modules by Djego Flochs, Pip Malt, KuroFurtex,
+congusbongus and Andreas Viklund are included in songs/cc-by-4.0.
+Individual titles, authors, source pages and hashes are in SONG-CREDITS.md
+and songs/cc-by-4.0/NOTICE.md. License:
+https://creativecommons.org/licenses/by/4.0/
+The BSD license for the code does not relicense these musical works.
+The original DOS distribution's example songs are not included.
+
+DISPLAY FONT
+The port uses a VGA font obtained from rendered DOSBox 0.74-3 output.
+The original font provenance is preserved in FONT-SOURCE.txt.
+Impulse Tracker's custom graphics are derived from its original source.
+
+NATIVE PORT ARTWORK
+The application icon assets were generated within this port project.

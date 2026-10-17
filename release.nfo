@@ -1,0 +1,126 @@
+.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.
+                  I M P U L S E   T R A C K E R
+              N A T I V E   W I N D O W S   P O R T
+`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`
+
+
+                                .
+                          .:-+*##+==-:.
+                   .:-=+*#%@@@@@#******++=-:..
+             .:-+*#%%@@@%%%%%%%%#*************+=--:.
+      .:-=+*#%@@@@%%%%%%%%%%%%%%#*******************++=-:.
+     -%%@@@@%%%%%%%%%%%%%%%%%%%%#*************************:
+     -@%%%%%%%%%%%%%%%%%%%%%%%%%#*************************:
+     -@%%%%%%%%%%%%%%%%%%%%%%%%%#*************************:
+     -@%%%%%%%%%%%%%%%%%%%%%%%%%#*************************-
+     -@%%%%%%%##**+=*%%%%%%%%%%%#**********====+++********-
+     -%##**+===-----+%%%%%%%%%%%#**********=------===++++*-
+      ....::---====-+%%%%%%%%%%%#**********=====----::....
+               ...::=%%%%%%%%%%%#**********=::...
+                    -@%%%%%%%%%%#**********:
+                    -%%%%%%%%%%%*+*********:
+                    -@%%%#*++==----==+++***-
+                    .---------=====-----:::.
+                           ..::::::...
+
+
+    :------..------  -----.  -----. ------. ------    :---:
+    =##@@##-+@####* #%####:.#%####..@%####:-@##%#@+ :%%##%%
+       #*   **     :@.     -@.     .@.     =%    +# %*   -@
+       #*   ***%%%: #%%%%#..#%%%%*..@=%%%* =%:--=@=.@.   -@
+       #*   **:-::   ::-:*%  ::-:##.@::::: =%=%@%= .@%%%#%%
+       #*   *%--::: --:-:*# --:-:## @+:-:-.=@  *%- :@=---+@
+       ++   .*%%%%*.%%%%%*..%%%%%*. =#%%%%:-#   =#-.#.   :#:
+
+
+.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.
+ 01 / RELEASE INFO
+`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`
+
+ PROJECT      : Impulse Tracker Native Windows Port
+ AUTHOR       : dYNAX (qo0d)
+ WEBSITE      : https://tessera.tv
+ PLATFORM     : Windows x64
+ BASE         : Impulse Tracker 2.14
+ RELEASE DATE : 2026-10-17
+ TYPE         : native port
+ LICENSE      : BSD 3-Clause
+ BINARY       : impulse-tracker.exe
+ VERSION      : Windows Port 0.1.0
+
+.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.
+ 02 / DESCRIPTION
+`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`
+
+ A native Windows port of Impulse Tracker 2.14, built from the
+ original source code. The DOS-era workflow and original logic
+ are retained, while DOS hardware services are replaced by
+ native Windows audio, MIDI and UI adapters.
+
+.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.
+ 03 / STATUS
+`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`
+
+ Work in progress.
+
+ Core IT loading, editing, playback and MIDI support are
+ implemented. Real-device Windows validation is still in
+ progress. Not every original Impulse Tracker feature is
+ complete yet.
+
+.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.
+ 04 / INSTALL
+`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`
+
+ 1. Unpack the archive.
+ 2. Run impulse-tracker.exe.
+ 3. Open an IT module.
+ 4. Enjoy the tracker.
+
+.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.
+ 05 / CREDITS
+`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`
+
+ ORIGINAL IMPULSE TRACKER
+   Jeffrey Lim
+   Copyright (C) 1995-2000, 2024
+   BSD 3-Clause License
+
+ NATIVE WINDOWS PORT
+   dYNAX (qo0d)
+   https://tessera.tv
+
+   dND Projekt     : 1998-1999
+   Arhythmia       : 1999-2003
+   dzeel, karateka : 2012
+   Ruda Rec        : 2026
+
+.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.
+ 06 / GREETINGS
+`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`
+
+ Respect to the original DOS tracker scene,
+ to everyone who kept the module format alive,
+ and to those still making music with trackers in 2026.
+
+ Special thanks to Jeffrey Lim, a true genius, for giving us
+ Impulse Tracker, countless hours of fun and some of the best
+ days and nights of our youth.
+
+ Greetings to my friend virux (bin life) -- for the inference
+ and for everything else.
+
+ Keep the scene alive.
+
+.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.
+ 07 / LEGAL
+`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`
+
+ Based on the original Impulse Tracker 2.14 source code.
+ Original copyright and license are retained.
+ See LICENSE for details.
+
+.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.~^~.
+                  I M P U L S E   T R A C K E R
+              N A T I V E   W I N D O W S   P O R T
+`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`~v~`

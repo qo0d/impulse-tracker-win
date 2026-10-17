@@ -1,0 +1,13 @@
+*.exe
+*.zip
+*.7z
+*.pdb
+IT.CFG
+ITDESKTOP.CFG
+CACHE.ITS
+CACHE.ITI
+.env
+.env.*
+.aws/
+.codex/
+.agents/
