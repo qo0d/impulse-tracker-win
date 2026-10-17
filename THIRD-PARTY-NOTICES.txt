@@ -8,7 +8,7 @@ License: BSD 3-Clause; full copyright, conditions and disclaimer in LICENSE.
 The native port is an independent project by dYNAX (qo0d).
 
 EXAMPLE MODULES - CC BY 4.0
-Nine unmodified modules by Djego Flochs, Pip Malt, KuroFurtex,
+Eight unmodified modules by Djego Flochs, Pip Malt,
 congusbongus and Andreas Viklund are included in songs/cc-by-4.0.
 Individual titles, authors, source pages and hashes are in SONG-CREDITS.md
 and songs/cc-by-4.0/NOTICE.md. License:

@@ -13,11 +13,10 @@ redistributing them. No changes were made to the downloaded files.
 | `pip-sundae.it` | Sundae | Pip Malt | [Mod Archive #163209](https://modarchive.org/index.php?request=view_by_moduleid&query=163209) | `c02ddaae1b95c8360f27179aa560e48f3f95d213fb909a901fbb36507cd05e4b` |
 | `pip-zirconium.it` | Zirconium | Pip Malt | [Mod Archive #165054](https://modarchive.org/index.php?request=view_by_moduleid&query=165054) | `1a0b64311ab550ae825122aec098a44bde292d46d772cdc20e16661d10aeae71` |
 | `djfl_-_interioridad.it` | Interioridad (house) | Djego Flochs | [Mod Archive #210901](https://modarchive.org/index.php?request=view_by_moduleid&query=210901) | `8196dfd6632680b6008b55d1e90948515ae710b06e45e87a3f4aa1419d7fe14e` |
-| `kurofurtex_-_cortanosis_invading.it` | Cortanosis Invading (chiptune) | KuroFurtex | [Mod Archive #213838](https://modarchive.org/index.php?request=view_by_moduleid&query=213838) | `aa0c4553f48778fe588b2b889c8bf7082c507ff918c7412f8a280ffb668b3c07` |
 | `shuffle.xm` | Shuffle (jungle) | congusbongus | [OpenGameArt](https://opengameart.org/content/shuffle) | `17b7b83363b7bf0c5f17765eb94a27019e959e53e1bff643bd178efdc24bce55` |
 | `core_meltdown.xm` | Core meltdown (house) | Andreas Viklund | [Mod Archive #134831](https://modarchive.org/index.php?request=view_by_moduleid&query=134831) | `dfbe9f3353cf108d4b429244f743540366f31b221c2f91af41373ac0e9c86441` |
 
-All nine modules pass the port's current song loader. The files
+All eight modules pass the port's current song loader. The files
 include IT and XM formats; `shuffle.xm` was extracted unchanged from the
 source ZIP. They were chosen for their explicit license, genre and author
 diversity, and loader compatibility, with user ratings and download counts

@@ -5,3 +5,7 @@ This is extracted screen output, not copied DOSBox source code.
 IT_S.ASM replaces character codes 128..201 with its original custom graphics.
 Reproduce atlas: build/ui-reference/font-atlas.s and font-atlas capture.
 The font and palette are checked against captured original IT UI regions.
+
+Windows filename display additionally uses hand-authored 8x8 Cyrillic glyphs
+(U+0410..U+044F, U+0401/U+0451) in src/host_text.hpp. They supplement the host
+renderer only; the original font bytes and DOS module metadata are unchanged.

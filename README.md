@@ -4,15 +4,15 @@ A native Windows x64 port of Impulse Tracker, based on the original source
 code by Jeffrey Lim. The DOS-era workflow and original tracker logic are
 retained, with native Windows audio, MIDI and window handling.
 
-Impulse Tracker for Windows port by **dYNAX (qo0d)** — [tessera.tv](https://tessera.tv).
+Windows port by **dYNAX (qo0d)** — [tessera.tv](https://tessera.tv).
 
-Current release: **v0.1.1**. See [CHANGELOG.md](CHANGELOG.md) for features
+Current release: **v0.2.0**. See [CHANGELOG.md](CHANGELOG.md) for features
 and limitations, and the repository's **Releases** page for downloadable builds.
 
 ## Download and run
 
 Open **Releases** on this repository's GitHub page and download
-`impulse-tracker-windows-x64-v0.1.1.zip` from **Assets**.
+`impulse-tracker-windows-x64-v0.2.0.zip` from **Assets**.
 The downloadable application is in that ZIP; GitHub's automatically generated
 “Source code” archives contain this repository's documentation.
 
@@ -23,7 +23,7 @@ The downloadable application is in that ZIP; GitHub's automatically generated
 The application saves its preferences and caches locally. See `START-HERE.txt`
 in the ZIP for keyboard shortcuts and further instructions.
 
-## Windows Port 0.1.1
+## Windows Port 0.2.0
 
 This release includes the features below; some original features remain incomplete.
 Real-device Windows audio, input and MIDI validation is still in progress.
@@ -32,6 +32,8 @@ Real-device Windows audio, input and MIDI validation is still in progress.
 - Edit patterns, samples and instruments, and play modules.
 - Export stereo 16-bit / 44100 Hz WAV files.
 - Use native Windows MIDI input/output and an adaptive tracker interface.
+- Choose WASAPI, an installed ASIO driver, or waveOut in Playback Menu -> Driver Screen.
+- Enable stereo-linked output peak protection without changing module volumes.
 
 Known limitations include unsupported stereo samples inside IT songs,
 incomplete original commands and formats, and reported audio crackle still
@@ -40,8 +42,8 @@ Back up important modules before editing them with this version.
 
 ## Example modules
 
-The Windows ZIP includes nine tracker modules from the CC BY 4.0 selection,
-with music by Djego Flochs, Pip Malt, KuroFurtex, congusbongus and Andreas Viklund.
+The Windows ZIP includes eight tracker modules from the CC BY 4.0 selection,
+with music by Djego Flochs, Pip Malt, congusbongus and Andreas Viklund.
 Open them from `songs/cc-by-4.0`.
 
 [SONG-CREDITS.md](SONG-CREDITS.md) lists each track, composer, source page,
