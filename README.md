@@ -4,7 +4,7 @@ A native Windows x64 port of Impulse Tracker, based on the original source
 code by Jeffrey Lim. The DOS-era workflow and original tracker logic are
 retained, with native Windows audio, MIDI and window handling.
 
-Windows port by **dYNAX (qo0d)** — [tessera.tv](https://tessera.tv).
+Impulse Tracker for Windows port by **dYNAX (qo0d)** — [tessera.tv](https://tessera.tv).
 
 Current release: **v0.1.1**. See [CHANGELOG.md](CHANGELOG.md) for features
 and limitations, and the repository's **Releases** page for downloadable builds.
