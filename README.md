@@ -6,13 +6,13 @@ retained, with native Windows audio, MIDI and window handling.
 
 Windows port by **dYNAX (qo0d)** — [tessera.tv](https://tessera.tv).
 
-First release: **v0.1.0**. See [CHANGELOG.md](CHANGELOG.md) for features
+Current release: **v0.1.1**. See [CHANGELOG.md](CHANGELOG.md) for features
 and limitations, and the repository's **Releases** page for downloadable builds.
 
 ## Download and run
 
 Open **Releases** on this repository's GitHub page and download
-`impulse-tracker-windows-x64-v0.1.0.zip` from **Assets**.
+`impulse-tracker-windows-x64-v0.1.1.zip` from **Assets**.
 The downloadable application is in that ZIP; GitHub's automatically generated
 “Source code” archives contain this repository's documentation.
 
@@ -23,9 +23,9 @@ The downloadable application is in that ZIP; GitHub's automatically generated
 The application saves its preferences and caches locally. See `START-HERE.txt`
 in the ZIP for keyboard shortcuts and further instructions.
 
-## Windows Port 0.1.0
+## Windows Port 0.1.1
 
-This first release includes the features below; some original features remain incomplete.
+This release includes the features below; some original features remain incomplete.
 Real-device Windows audio, input and MIDI validation is still in progress.
 
 - Load IT, S3M, MOD, XM, MTM and 669 songs; save edited songs as IT.

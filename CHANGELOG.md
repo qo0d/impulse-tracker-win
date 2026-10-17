@@ -1,7 +1,19 @@
 # Changelog
 
 Versions here refer to the native Windows port, independently of the original
-Impulse Tracker 2.14 version. This entry describes the first release package; GitHub publication is a separate step.
+Impulse Tracker 2.14 version. Entries describe prepared release packages;
+GitHub publication is a separate step.
+
+## 0.1.1 — Filtered sample playback fix (packaged 2026-10-18)
+
+### Fixed
+
+- Fixed the filter-gain regression introduced by short PCM blocks in 0.1.0.
+  After the first block, filtered voices incorrectly approached half volume
+  until the next gain update. Their effective gain now persists across blocks.
+- Added a regression comparing sustained filtered and unfiltered voices with
+  whole-block and 128-frame rendering. Original low-level mixer kernels remain
+  unchanged. This does not claim all previously reported crackle is resolved.
 
 ## 0.1.0 — First Windows release (packaged 2026-10-18)
 

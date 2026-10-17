@@ -1,17 +1,21 @@
-# Impulse Tracker Windows Port v0.1.0 — First release
+# Impulse Tracker Windows Port v0.1.1 — Filtered sample playback fix
 
-The first release of the native Windows x64 port by dYNAX (qo0d), based on
+A bug-fix release of the native Windows x64 port by dYNAX (qo0d), based on
 Jeffrey Lim's original Impulse Tracker source code.
-Version 0.1.0 of the Windows port. See `CHANGELOG.md`
+Version 0.1.1 of the Windows port. See `CHANGELOG.md`
 for the included features and known limitations.
 
-Download `impulse-tracker-windows-x64-v0.1.0.zip`, extract the entire
+Download `impulse-tracker-windows-x64-v0.1.1.zip`, extract the entire
 archive and run `impulse-tracker.exe`. No installation or Python is required.
 `SHA256SUMS.txt` provides the archive's checksum.
 
 The package contains the Windows application, startup instructions, license
 notices, scene NFO and nine attributed CC BY 4.0 modules in `songs/cc-by-4.0`.
 The native port's source code is not included.
+
+Fixed a regression introduced in 0.1.0: filtered voices could repeatedly
+head toward half volume between short PCM blocks, causing audible modulation.
+The effective filter gain now persists across blocks.
 
 Implemented functionality includes module loading, pattern/sample/instrument
 editing, playback, IT saving, WAV export and native MIDI integration.
