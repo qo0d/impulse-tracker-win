@@ -4,6 +4,49 @@ Versions here refer to the native Windows port, independently of the original
 Impulse Tracker 2.14 version. Entries describe prepared release packages;
 GitHub publication is a separate step.
 
+## 0.2.2 — Clear Windows port credit (packaged 2026-10-18)
+
+### Changed
+
+- Offer two downloads: application-only (no music/samples) and Full (two
+  original IT examples plus 41 CC0 starter preset files). Remove the previous
+  eight-song selection from this unpublished package. Audio behavior is unchanged.
+- Use the original NFO text logo and section plaques in the GitHub README.
+- Move the original copyright row left without changing its text. Display
+  Win port by dYNAX separately on the right in the muted accent color, with
+  a four-cell gap in the classic layout. Song fields retain their positions.
+- Keep detailed port credits and tessera.tv in Help. Update the displayed
+  Windows port version to 0.2.2.
+- Include the Tessera NFO artwork, framed sections and acknowledgements in
+  matching UTF-8 and CP437 editions.
+
+The UI regression suite, Windows x64 cross-build and optimized WASAPI/ASIO
+adapter ABI checks passed. Interactive Windows validation remains outstanding.
+
+This is a presentation update. Audio, MIDI and file formats are unchanged
+from 0.2.1; load-related crackle and hardware-latency limitations still apply.
+
+## 0.2.1 — Pattern wheel and menu polish (packaged 2026-10-18)
+
+### Fixed
+
+- Vertical mouse-wheel navigation in the pattern editor follows the original
+  Cursor step setting (Alt+0..9). A zero step moves one row; other lists retain
+  three rows per notch. Horizontal scrolling and column-width modifiers retain
+  their existing behavior.
+- Align the Driver Screen [Exclusive] badge with [New] and use the same muted
+  accent color when the menu item is not selected. This is a Windows-port
+  feature label, not WASAPI exclusive mode.
+- Document the pattern-wheel behavior in Windows Port Help.
+
+The UI regression suite passed, including cursor-step navigation and badge
+alignment/color checks. The Windows x64 cross-build also passed; interactive
+Windows validation remains outstanding.
+
+The audio engine and backends are unchanged from 0.2.0. This patch does not
+claim to fix load-related crackle or reduce hardware MIDI latency. See the
+0.2.0 entry for the audio features and outstanding device checks.
+
 ## 0.2.0 — WASAPI and ASIO (packaged 2026-10-18)
 
 ### Added / Fixed

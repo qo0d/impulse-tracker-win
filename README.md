@@ -1,3 +1,39 @@
+```text
+                                    ▄▄▄█▓▓▄▄
+                              ▄▄▄███████▓▓▓▓▓▓▓▄▄▄
+                        ▄▄▄█████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▄▄▄
+                  ▄▄▄███████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄▄▄
+            ▄▄▄█████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄▄▄
+          ██████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+          ██████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+          ██████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+          ██████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+          ██████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+          █████████▓▓▓▓▓▒▒▓█████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+          ██▓▓▓▓▓▓▓▒▒▒▒▒▒▒▓█████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓
+            ▀▀▀▀▀▒▒▒▓▓▒▒▒▓▓█████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▀▀▀▀
+                     ▀▀▀▀▒▓█████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▀▀▀▀▀
+                           █████████████▓▓▓▓▓▓▓▓▓▓▓▓
+                           █████████████▓▓▓▓▓▓▓▓▓▓▓▓
+                           ███████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+                           ████▓▓▓▓▓▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓
+                           ▀▀▀▀▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▀▀▀▀
+                                  ▀▀▀▀▒▒▒▀▀▀▀
+
+                     ░ ▒ ▓    T E S S E R A . T V    ▓ ▒ ░
+
+    ██████████ █████████ ▄███████  ▄███████  █████████ ████████▄  ▄▄██████
+        ██     ██        ██        ██        ██        ██     ██ ▄█▀    ██
+        ██     ██▄█████  ▀███████▄ ▀███████▄ ██▄█████  ██▄▄▄▄██▀ ██     ██
+        ██     ██               ██        ██ ██        ██▀▀██▀   █████████
+        ██     ▀████████ ████████▀ ████████▀ ▀████████ ██   ▀██▄ ██     ██
+
+                         I M P U L S E   T R A C K E R
+                     N A T I V E   W I N D O W S   P O R T
+
+                               dYNAX / tessera.tv
+```
+
 # Impulse Tracker — Native Windows Port
 
 A native Windows x64 port of Impulse Tracker, based on the original source
@@ -6,13 +42,23 @@ retained, with native Windows audio, MIDI and window handling.
 
 Windows port by **dYNAX (qo0d)** — [tessera.tv](https://tessera.tv).
 
-Current release: **v0.2.0**. See [CHANGELOG.md](CHANGELOG.md) for features
+Current release: **v0.2.2**. See [CHANGELOG.md](CHANGELOG.md) for features
 and limitations, and the repository's **Releases** page for downloadable builds.
 
-## Download and run
+```text
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+ ▐██▓▒░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ 01 / DOWNLOAD AND RUN ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░▒▓██▌
+  ▀▀───────────────────────────────────────────────────────────────────────▀▀
+```
 
-Open **Releases** on this repository's GitHub page and download
-`impulse-tracker-windows-x64-v0.2.0.zip` from **Assets**.
+Open **Releases** on this repository's GitHub page and choose from **Assets**:
+
+| Download | Contents |
+| --- | --- |
+| `impulse-tracker-windows-x64-v0.2.2.zip` | Application and documentation, without songs or samples. |
+| `impulse-tracker-windows-x64-v0.2.2-full.zip` | The same application, two original example songs and the starter sound bank. |
+
+Both editions use the same EXE. Verify either ZIP against `SHA256SUMS.txt`.
 The downloadable application is in that ZIP; GitHub's automatically generated
 “Source code” archives contain this repository's documentation.
 
@@ -23,7 +69,11 @@ The downloadable application is in that ZIP; GitHub's automatically generated
 The application saves its preferences and caches locally. See `START-HERE.txt`
 in the ZIP for keyboard shortcuts and further instructions.
 
-## Windows Port 0.2.0
+```text
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+ ▐██▓▒░▀▀▀▀▀▀▀▀▀▀▀▀▀▀ 02 / FEATURES / WINDOWS PORT 0.2.2 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░▒▓██▌
+  ▀▀───────────────────────────────────────────────────────────────────────▀▀
+```
 
 This release includes the features below; some original features remain incomplete.
 Real-device Windows audio, input and MIDI validation is still in progress.
@@ -40,17 +90,34 @@ incomplete original commands and formats, and reported audio crackle still
 under investigation. External MIDI audio is not included in WAV exports.
 Back up important modules before editing them with this version.
 
-## Example modules
+```text
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+ ▐██▓▒░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ 03 / EXAMPLE MODULES ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░▒▓██▌
+  ▀▀───────────────────────────────────────────────────────────────────────▀▀
+```
 
-The Windows ZIP includes eight tracker modules from the CC BY 4.0 selection,
-with music by Djego Flochs, Pip Malt, congusbongus and Andreas Viklund.
-Open them from `songs/cc-by-4.0`.
+The **Full edition** includes just two original Impulse Tracker examples:
 
-[SONG-CREDITS.md](SONG-CREDITS.md) lists each track, composer, source page,
-license link and original file hash. The same notice is included beside the
-unmodified modules. Their music is licensed separately from the program.
+- **Blue Flame** — Chris Jarvis (`CHRIS31B.IT`).
+- **Drifting Onwards** — Jeffrey Lim (`JEFF93.IT`).
 
-## Credits and license
+Open them from `songs/it214v5`. [SONG-CREDITS.md](SONG-CREDITS.md) records their
+origin, hashes and rights information. They are not licensed under the starter
+bank's CC0 dedication or the program's BSD license.
+
+The Full edition also includes **Tessera Starter Sounds** in `samples/starter`:
+24 drum files and 17 bass, synth, strings and keys instruments. These are original
+synthesized timbres, not hardware or acoustic recordings. Some drum files share
+PCM; the bank is not advertised as 41 unique sounds. See
+[STARTER-SOUNDS.txt](STARTER-SOUNDS.txt) for loading instructions and CC0 credits.
+
+The application-only edition contains neither music nor sample files.
+
+```text
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+ ▐██▓▒░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ 04 / CREDITS AND LICENSE ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░▒▓██▌
+  ▀▀───────────────────────────────────────────────────────────────────────▀▀
+```
 
 Original Impulse Tracker: **Jeffrey Lim**.
 Native Windows port: **dYNAX (qo0d)**.
@@ -63,7 +130,11 @@ for upstream and asset information. This is an independent port.
 This repository currently distributes the Windows application and its
 documentation. The native port's source code is not included.
 
-## Reporting problems
+```text
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+ ▐██▓▒░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ 05 / REPORTING PROBLEMS ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░▒▓██▌
+  ▀▀───────────────────────────────────────────────────────────────────────▀▀
+```
 
 Use this repository's **Issues** tab. Include the build filename, Windows
 version, audio/MIDI device, steps to reproduce and expected behavior.

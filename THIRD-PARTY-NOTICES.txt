@@ -7,14 +7,19 @@ Pinned upstream commit: 58c44e48dfdf479b186db17df0f2fa494b8c9aa9
 License: BSD 3-Clause; full copyright, conditions and disclaimer in LICENSE.
 The native port is an independent project by dYNAX (qo0d).
 
-EXAMPLE MODULES - CC BY 4.0
-Eight unmodified modules by Djego Flochs, Pip Malt,
-congusbongus and Andreas Viklund are included in songs/cc-by-4.0.
-Individual titles, authors, source pages and hashes are in SONG-CREDITS.md
-and songs/cc-by-4.0/NOTICE.md. License:
-https://creativecommons.org/licenses/by/4.0/
-The BSD license for the code does not relicense these musical works.
-The original DOS distribution's example songs are not included.
+EXAMPLE MODULES - FULL EDITION ONLY
+CHRIS31B.IT (Blue Flame) by Chris Jarvis and JEFF93.IT (Drifting Onwards)
+by Jeffrey Lim, unchanged from the original IT 2.14 patch 5 distribution.
+See SONG-CREDITS.md for source, hashes and rights information. These songs
+are not CC BY/CC0, and the code's BSD license does not relicense them.
+A separate commercial redistribution grant for these songs is not documented.
+
+STARTER SOUND BANK - FULL EDITION ONLY
+Tessera Starter Sounds contributors. Original deterministic synthesis.
+CC0 1.0 Universal; full text in samples/starter/LICENSES/CC0-1.0.txt.
+41 preset files, with some shared drum PCM. Drum-machine/piano/strings names
+describe inspirations, not hardware or acoustic recordings. No endorsement
+by Roland or other equipment manufacturers is claimed.
 
 DISPLAY FONT
 The port uses a VGA font obtained from rendered DOSBox 0.74-3 output.

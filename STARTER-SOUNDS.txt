@@ -1,0 +1,27 @@
+Tessera Starter Sounds 1.0.0 - Full edition
+
+41 preset files: 24 drum one-shots (.ITS) and 17 instruments (.ITI).
+Bass: 4; synth: 4; strings: 3; keys: 6.
+
+The Full application archive already places the bank in samples/starter.
+Extract the entire application ZIP, preserving its folders.
+F3: press Enter to open the sample browser, then load a drum .ITS.
+F4: press Enter to open the instrument browser, then load an .ITI.
+No external samples, plug-ins, Python or synthesizer are required.
+
+All sounds are original deterministic synthesis, mono PCM16 at 44100 Hz.
+Melodic instruments contain four sample zones and a note map.
+The names describe timbre inspirations, not recordings of real drum machines,
+pianos, string instruments or branded synthesizers. No third-party PCM or ROM
+recordings are included. Velocity layers and round-robin are not implemented.
+Some drum presets share identical PCM; 41 files does not mean 41 unique sounds.
+
+License: CC0 1.0 Universal.
+See samples/starter/CREDITS.txt and LICENSES/CC0-1.0.txt in the Full edition.
+PRESETS.tsv lists presets; manifest.json records original hashes and synthesis
+provenance. Generator/source paths in the manifest describe internal provenance;
+they are not required for playback and source code is not in the distribution.
+
+The generator's showcase.it and audition.wav are omitted from the application
+bundle, which contains exactly the two original example songs.
+The application-only ZIP does not contain this sound bank.
