@@ -4,6 +4,37 @@ Versions here refer to the native Windows port, independently of the original
 Impulse Tracker 2.14 version. Entries describe prepared release packages;
 GitHub publication is a separate step.
 
+## 0.3.0 — In preparation (unreleased)
+
+### Added and changed
+
+- **Ctrl+Shift+G** switches between Classic and HQ interfaces; adaptive layouts,
+  music-reactive Demo scenes
+  and a portrait ANSI/NFO viewer.
+- Group Windows help by task while preserving the separate original IT help.
+- Prepare one public package with bundled example songs and no standalone sound bank. Keep
+  Studio separate for full-feature work and testing; no Lite package is planned.
+- Public scope excludes AI assistance and advanced waveform editing/chopping.
+  Public build exclusions and archive integrity have been checked.
+
+### Audio options in this package
+
+- WASAPI shared, ASIO and waveOut output; offline stereo PCM16 / 44.1 kHz WAV rendering.
+- Nearest, Linear, Cubic and Sinc8 interpolation; selectable boundary declick
+  and output peak protection. WAV export uses these settings and module Mix Volume.
+- LUFS-S loudness metering and output peak meters.
+- Omit the experimental synthesized starter bank from the public archive because
+  its sound quality is not ready for this release. Keep the two example songs.
+
+### Fixed in the development build
+
+- Instrument note-map mouse column selection and HQ cursor feedback.
+- Sample-page font rendering and splash geometry corrections.
+
+The public Windows cross-build and native UI, instrument, ITI and Demo/NFO
+checks passed. Archive integrity and exclusions were verified. Interactive
+Windows validation remains pending; nothing has been published.
+
 ## 0.2.2 — Clear Windows port credit (packaged 2026-10-18)
 
 ### Changed

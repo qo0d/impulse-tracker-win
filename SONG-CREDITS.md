@@ -1,6 +1,6 @@
-# Original Impulse Tracker examples — Full edition only
+# Original Impulse Tracker examples
 
-The Full ZIP includes exactly two unchanged modules from `songs/it214v5`:
+The public ZIP includes exactly two unchanged modules from `songs/it214v5`:
 
 | File | Title | Author | SHA-256 |
 | --- | --- | --- | --- |
@@ -16,4 +16,3 @@ The archive does not provide a separate commercial redistribution grant for
 them; no blanket permission to reuse their music or embedded samples is claimed.
 For commercial redistribution, obtain the required permission from the authors.
 
-The application-only ZIP contains no songs or samples.

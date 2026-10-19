@@ -1,44 +1,75 @@
-# Impulse Tracker Windows Port v0.2.2 — Clear Windows port credit
+# Impulse Tracker — Native Windows Port v0.3.0
 
-Small presentation update to v0.2.1, by dYNAX (qo0d).
+> **Two interface styles: press Ctrl+Shift+G to switch between Classic and HQ (Hi-Res). Try both!**
 
-Choose one of two downloads:
+Release candidate — built and packaged locally; final interactive Windows validation is pending.
 
-- `impulse-tracker-windows-x64-v0.2.2.zip`: application only, without music or samples.
-- `impulse-tracker-windows-x64-v0.2.2-full.zip`: the same EXE, two original example
-  songs (Blue Flame and Drifting Onwards) and Tessera Starter Sounds.
+Impulse Tracker's keyboard-driven workflow with native Windows audio and MIDI,
+a choice of Classic and HQ interfaces, and an adaptive layout.
+Windows port by **dYNAX (qo0d)** — [tessera.tv](https://tessera.tv).
+
+## What's new
+
+- Press **Ctrl+Shift+G** to switch between Classic and HQ interface styles.
+- Music-reactive Demo scenes and an integrated portrait ANSI/NFO viewer.
+- Windows help grouped by task, separate from the original tracker help.
+- Sample-page typography and layout corrections, and instrument note-map mouse
+  column selection with a visible editing cursor.
+
+## Native Windows audio and WAV rendering
+
+- **WASAPI shared** — native Windows playback through the system audio engine.
+- **ASIO** — use an installed ASIO driver, its supported buffer sizes and control
+  panel. Actual latency depends on the device and driver.
+- **waveOut** — an alternative Windows output backend and compatibility fallback.
+- **Interpolation:** Nearest (no interpolation), Linear, Cubic and Sinc8.
+  Choose a playback character in **Playback Menu > Driver Screen** (Shift+F5).
+- **Boundary declick** and **output peak protection** are separately selectable.
+- **LUFS-S loudness metering and output peak meters.**
+- **File Menu > Render WAV** exports stereo 16-bit / 44.1 kHz audio offline.
+  It uses the module's Mix Volume, selected interpolation, boundary declick and
+  peak protection settings. The master slider changes that module Mix Volume,
+  so its setting is included in the render. Windows/device volume is not included.
+  External MIDI instrument audio is not captured.
+
+The original tracker workflow and musical playback logic are retained, with
+additional output options for Windows. This is not a promise of bit-identical
+DOS output or universally better sound. The original IT already supported
+interpolation and disk writing, including cubic-spline disk output; the Windows
+port offers its own selectable resampling implementation, including Sinc8.
+
+## Why no bundled sample bank?
+
+The experimental synthesized starter bank did not meet the sound-quality standard
+we want for this release, so it has been left out. The package includes example
+songs with their embedded sounds. Loading your own samples and instruments remains
+available; no separate sound-bank edition is offered.
+
+## Public package
+
+One Windows x64 archive contains the application, documentation and two example
+modules. No standalone sound bank is included. Classic, HQ, Demo and NFO are included. AI assistance
+and the advanced waveform editor/chopper are excluded from the public edition;
+normal sample loading, audition and parameter controls remain.
 
 Extract the entire archive and run `impulse-tracker.exe`.
-No installation or Python is required.
-Verify the archive against `SHA256SUMS.txt`.
+No installation or Python is required. Download: `impulse-tracker-windows-x64-v0.3.0.zip`.
+Verify it against the accompanying `SHA256SUMS.txt`.
 
-## Changes
+## Compatibility and validation
 
-- The original Jeffrey Lim copyright text is preserved and shifted left.
-- Win port by dYNAX appears separately on the right in a muted color, with
-  a clear gap. Detailed author information and tessera.tv remain in Help.
-- The in-app Windows port version is now 0.2.2.
-- Refreshed Tessera NFO artwork and acknowledgements, in UTF-8 and CP437.
+WASAPI shared, ASIO and waveOut remain available. External MIDI audio is not
+captured by WAV export. Some original features and formats remain incomplete.
+The public Windows cross-build and native UI, instrument, ITI and Demo/NFO
+tests passed. Archive integrity and exclusions were checked. Interactive Windows
+and hardware audio/MIDI validation remain pending;
+this release does not claim to resolve every reported audio crackle.
 
-The cursor-step wheel navigation and menu improvements from v0.2.1 are retained.
-UI regression tests, the Windows x64 cross-build and optimized audio adapter
-ABI checks passed. These checks do not replace a run on Windows hardware.
+Example songs retain their separate rights; see [SONG-CREDITS.md](SONG-CREDITS.md).
+No standalone instruments or drum bank are bundled.
 
-## Audio and compatibility
+## In development
 
-Audio, MIDI and file formats are unchanged by this update. WASAPI shared,
-ASIO and waveOut remain available. Load-related crackle is still under
-investigation; real ASIO devices and Yamaha latency require hardware validation.
-
-Some original features remain incomplete; stereo samples inside IT songs are
-unsupported. WAV export cannot record audio from external MIDI instruments.
-Back up important modules before editing them. See CHANGELOG.md for history.
-
-The Full bank contains 41 preset files (24 ITS drums, 17 ITI instruments) under
-CC0. These are synthesized timbres, not recordings of branded hardware or
-acoustic instruments; some drum PCM is shared between presets.
-The two original songs have separate rights; see SONG-CREDITS.md.
-The eight-track CC BY selection is no longer bundled.
-
-Native port source, local settings, personal files, API/MCP and Modern UI are
-excluded. The bank's developer showcase and WAV audition are not bundled.
+**Impulse Tracker Studio — an unofficial edition by dYNAX, currently in development.**
+Studio is being developed separately with AI assistance and advanced sample
+editing. It is not included in this public release. No release date is announced.
