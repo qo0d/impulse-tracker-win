@@ -1,10 +1,11 @@
 TESSERA / dYNAX — portrait NFO edition
 
-The README displays nine separate PNG sections rendered from the ANSI artwork.
+The GitHub README keeps the Tessera mark, live title text, and portrait as separate assets.
+The portrait is a lossless crop of the credited source photograph; it is not AI-redrawn.
+The remaining information panels are exact PNG sections rendered from a real ANSI file.
 ANSI: UTF-8, 24-bit SGR colours, 79 columns. Use a fixed-width 1:2 font.
 The two NFO companions are monochrome (UTF-8 and CP437).
-Separate PNG strips are supplied under assets/tessera-portrait/sections/.
-They reconstruct full.png exactly, without gaps or overlaps.
+The complete ANSI rendering remains available as assets/tessera-portrait/full.png.
 
 Portrait source: https://muzreview.ru/covers/ruda-rec-portrait.webp
 Tessera logo: https://tessera.tv/

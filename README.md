@@ -1,5 +1,13 @@
 <p align="center">
-  <img src="assets/tessera-portrait/sections/00-portrait.png" width="664" alt="Tessera / dYNAX — Impulse Tracker">
+  <img src="assets/tessera-portrait/tessera-t.png" width="144" alt="Tessera">
+</p>
+
+<h1 align="center">Impulse Tracker — Native Windows Port</h1>
+
+<p align="center"><strong>dYNAX (qo0d) · Tessera.tv</strong></p>
+
+<p align="center">
+  <img src="assets/tessera-portrait/portrait.webp" width="664" alt="Portrait of dYNAX (qo0d)">
 </p>
 
 > **Press Ctrl+Shift+G to switch between Classic and HQ (Hi-Res). Try both!**
