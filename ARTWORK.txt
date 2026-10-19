@@ -1,7 +1,6 @@
 TESSERA / dYNAX — portrait NFO edition
 
-The GitHub README keeps the Tessera mark, live title text, and portrait as separate assets.
-The portrait is a lossless crop of the credited source photograph; it is not AI-redrawn.
+The GitHub README keeps the Tessera mark and live title text separate from the ANSI panels.
 The remaining information panels are exact PNG sections rendered from a real ANSI file.
 ANSI: UTF-8, 24-bit SGR colours, 79 columns. Use a fixed-width 1:2 font.
 The two NFO companions are monochrome (UTF-8 and CP437).
