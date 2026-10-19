@@ -2,8 +2,6 @@
 
 > **Two interface styles: press Ctrl+Shift+G to switch between Classic and HQ (Hi-Res). Try both!**
 
-Built, packaged and validated on Windows before publication.
-
 Impulse Tracker's keyboard-driven workflow with native Windows audio and MIDI,
 a choice of Classic and HQ interfaces, and an adaptive layout.
 Windows port by **dYNAX (qo0d)** — [tessera.tv](https://tessera.tv).
