@@ -4,7 +4,7 @@ Versions here refer to the native Windows port, independently of the original
 Impulse Tracker 2.14 version. Entries describe prepared release packages;
 GitHub publication is a separate step.
 
-## 0.3.0 — In preparation (unreleased)
+## 0.3.0 — Published 2026-10-19
 
 ### Added and changed
 
@@ -12,7 +12,7 @@ GitHub publication is a separate step.
   music-reactive Demo scenes
   and a portrait ANSI/NFO viewer.
 - Group Windows help by task while preserving the separate original IT help.
-- Prepare one public package with bundled example songs and no standalone sound bank. Keep
+- Ship one public package with bundled example songs and no standalone sound bank. Keep
   Studio separate for full-feature work and testing; no Lite package is planned.
 - Public scope excludes AI assistance and advanced waveform editing/chopping.
   Public build exclusions and archive integrity have been checked.
@@ -33,7 +33,7 @@ GitHub publication is a separate step.
 
 The public Windows cross-build and native UI, instrument, ITI and Demo/NFO
 checks passed. Archive integrity and exclusions were verified. Interactive
-Windows validation remains pending; nothing has been published.
+Windows launch and core workflow validation passed before publication.
 
 ## 0.2.2 — Clear Windows port credit (packaged 2026-10-18)
 

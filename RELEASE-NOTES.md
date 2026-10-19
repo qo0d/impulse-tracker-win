@@ -2,7 +2,7 @@
 
 > **Two interface styles: press Ctrl+Shift+G to switch between Classic and HQ (Hi-Res). Try both!**
 
-Release candidate — built and packaged locally; final interactive Windows validation is pending.
+Built, packaged and validated on Windows before publication.
 
 Impulse Tracker's keyboard-driven workflow with native Windows audio and MIDI,
 a choice of Classic and HQ interfaces, and an adaptive layout.
@@ -62,7 +62,8 @@ WASAPI shared, ASIO and waveOut remain available. External MIDI audio is not
 captured by WAV export. Some original features and formats remain incomplete.
 The public Windows cross-build and native UI, instrument, ITI and Demo/NFO
 tests passed. Archive integrity and exclusions were checked. Interactive Windows
-and hardware audio/MIDI validation remain pending;
+launch and core workflow validation also passed before publication. Hardware-specific
+ASIO and external MIDI behavior remains device- and driver-dependent;
 this release does not claim to resolve every reported audio crackle.
 
 Example songs retain their separate rights; see [SONG-CREDITS.md](SONG-CREDITS.md).

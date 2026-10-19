@@ -8,21 +8,20 @@ retained, with native Windows audio, MIDI and window handling.
 
 Windows port by **dYNAX (qo0d)** — [tessera.tv](https://tessera.tv).
 
-Release in preparation: **v0.3.0**. See [CHANGELOG.md](CHANGELOG.md) for
-changes and [RELEASE-NOTES.md](RELEASE-NOTES.md) for the release draft.
-This documentation does not announce an available download yet.
+Current release: **v0.3.0**. See [CHANGELOG.md](CHANGELOG.md) for
+changes and [RELEASE-NOTES.md](RELEASE-NOTES.md) for release details.
 
 ## DOWNLOAD AND RUN
 
-The planned public Windows x64 package contains the application, documentation,
-example modules. No standalone sound bank is bundled. One public package is planned;
+The public Windows x64 package contains the application, documentation and
+example modules. No standalone sound bank is bundled. One public package is available;
 there is no Lite edition for this release.
 
 The public build retains Classic and HQ interfaces, Demo and the NFO viewer.
 AI assistance and the advanced waveform editor/chopper are not part of this
 package. Ordinary sample loading, audition and parameter controls remain.
-Prepared archive: `impulse-tracker-windows-x64-v0.3.0.zip`.
-Check the accompanying `SHA256SUMS.txt`. Interactive Windows validation is pending.
+Download `impulse-tracker-windows-x64-v0.3.0.zip` and check it against the
+accompanying `SHA256SUMS.txt`. Interactive Windows validation passed before publication.
 
 1. Extract the entire ZIP to a writable folder.
 2. Run `impulse-tracker.exe`. No Python or development tools are required.
@@ -33,8 +32,9 @@ in the ZIP for keyboard shortcuts and further instructions.
 
 ## FEATURES / WINDOWS PORT 0.3.0
 
-The planned release includes the features below; some original features remain incomplete.
-Real-device Windows audio, input and MIDI validation is still in progress.
+This release includes the features below; some original features remain incomplete.
+Interactive Windows validation passed before publication. Hardware-specific audio
+and MIDI behavior still depends on the installed devices and drivers.
 
 - Load IT, S3M, MOD, XM, MTM and 669 songs; save edited songs as IT.
 - Edit patterns and instrument mappings; load, audition and configure samples.
@@ -81,7 +81,7 @@ available; no separate sound-bank edition is offered.
 
 ## EXAMPLE MODULES
 
-The planned public package includes two original Impulse Tracker examples:
+The public package includes two original Impulse Tracker examples:
 
 - **Blue Flame** — Chris Jarvis (`CHRIS31B.IT`).
 - **Drifting Onwards** — Jeffrey Lim (`JEFF93.IT`).
