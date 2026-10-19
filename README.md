@@ -1,55 +1,25 @@
-<p align="center">
-  <img src="assets/tessera-portrait/tessera-t.png" width="144" alt="Tessera">
-</p>
-
 <p align="center"><strong>dYNAX presents</strong></p>
 
-<h1 align="center">Impulse Tracker</h1>
+<h1 align="center">Impulse Tracker — Native Windows Port</h1>
 
-<p align="center"><strong>Native Windows Port</strong></p>
+A native Windows port of Impulse Tracker 2.14, with Classic and HQ interfaces, Windows audio and MIDI, and WAV export.
 
-> **Press Ctrl+Shift+G to switch between Classic and HQ (Hi-Res). Try both!**
+<p align="center"><strong><a href="https://github.com/qo0d/impulse-tracker-win/releases/latest">DOWNLOAD</a></strong></p>
 
-**Windows audio: WASAPI · ASIO · waveOut. Render WAV · selectable interpolation · LUFS-S metering.**
+Extract the ZIP and run `impulse-tracker.exe`.<br>
+Press **Ctrl+Shift+G** to switch between Classic and HQ.
 
-[Read the project information](README-TEXT.md) · [Changelog](CHANGELOG.md) · [Release notes](RELEASE-NOTES.md)
+## Features
 
-<p align="center">
-  <img src="assets/tessera-portrait/sections/01-release-info.png" width="664" alt="Release information">
-</p>
-
-Download the Windows application from this repository’s **Releases** page.
-
-<p align="center">
-  <img src="assets/tessera-portrait/sections/02-description.png" width="664" alt="About the port">
-</p>
+- WASAPI, ASIO and waveOut audio output.
+- Nearest, Linear, Cubic and Sinc8 interpolation.
+- LUFS-S and peak metering.
+- Stereo WAV export.
+- Windows MIDI input and output.
+- Music-reactive Demo and ANSI/NFO viewer.
 
 <p align="center">
-  <img src="assets/tessera-portrait/sections/03-features.png" width="664" alt="Features">
+  <img src="assets/tessera-no-portrait.png" width="664" alt="Tessera / dYNAX — Impulse Tracker Native Windows Port">
 </p>
 
-[Audio backends, interpolation and WAV export](README-TEXT.md#native-windows-audio-and-wav-rendering)
-
-<p align="center">
-  <img src="assets/tessera-portrait/sections/04-install.png" width="664" alt="Installation">
-</p>
-
-[Download and launch instructions](README-TEXT.md#download-and-run) · **Classic / HQ: Ctrl+Shift+G**
-
-<p align="center">
-  <img src="assets/tessera-portrait/sections/05-credits.png" width="664" alt="Credits">
-</p>
-
-<p align="center">
-  <img src="assets/tessera-portrait/sections/06-greetings.png" width="664" alt="Greetings">
-</p>
-
-<p align="center">
-  <img src="assets/tessera-portrait/sections/07-legal.png" width="664" alt="License information">
-</p>
-
-<p align="center">
-  <img src="assets/tessera-portrait/sections/08-footer.png" width="664" alt="Keep the scene alive">
-</p>
-
-[Colour ANSI](tessera-portrait.ans) · [Text NFO](tessera-portrait.nfo) · [License](LICENSE) · [Artwork](ARTWORK.txt)
+[Getting started](README-TEXT.md#download-and-run) · [Changelog](CHANGELOG.md) · [Release notes](RELEASE-NOTES.md) · [Credits](README-TEXT.md#credits-and-license)

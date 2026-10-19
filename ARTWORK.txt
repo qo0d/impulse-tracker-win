@@ -1,15 +1,15 @@
-TESSERA / dYNAX — portrait NFO edition
+TESSERA / dYNAX — no-portrait NFO edition
 
-The GitHub README keeps the Tessera mark and live title text separate from the ANSI panels.
-The remaining information panels are exact PNG sections rendered from a real ANSI file.
+The GitHub README uses one complete PNG rendered from the authored ANSI file.
+Only the 34 portrait rows were removed; all remaining ANSI rows are unchanged.
+The PNG is losslessly optimized and pixel-identical to the generated source.
 ANSI: UTF-8, 24-bit SGR colours, 79 columns. Use a fixed-width 1:2 font.
 The two NFO companions are monochrome (UTF-8 and CP437).
-The complete ANSI rendering remains available as assets/tessera-portrait/full.png.
+The complete rendering is assets/tessera-no-portrait.png.
 
-Portrait source: https://muzreview.ru/covers/ruda-rec-portrait.webp
 Tessera logo: https://tessera.tv/
 Style reference: https://www.deviantart.com/roy-sac/art/roysac2015.ANS-ANSI-Me-544550045
 Layout references: Razor 1911 NFO typography and Blocktronics information art.
 https://16colo.rs/pack/blocktronicsonice/Blocktronics_on_ice_information.ans
-Information design: default Impulse Tracker palette on the information frame and live text, blue Tessera branding, pure black background.
+Information design: default Impulse Tracker palette, blue Tessera branding, pure black background.
 Reference artwork is not included in the composition or this package.
